@@ -35,6 +35,9 @@ Use a more readable tab size (opinionated).
 */
 
 html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -48,8 +51,14 @@ Sections
 Remove the margin in all browsers.
 */
 
+main {
+  margin-top: 65px;
+}
+
 body {
+  height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 /**

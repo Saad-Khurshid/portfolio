@@ -2,6 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import { animateHelper, animateStagger } from "../../utilities/animateHelpers";
 
+
+const list = {
+  visible: { opacity: 1, transition: { delayChildren: 0.5 } },
+  hidden: { opacity: 0 },
+}
+
+const item = {
+  visible: { opacity: 1, x: 0 },
+  hidden: { opacity: 0, x: -100 },
+}
+
 const TechStack = () => {
   return (
     <>
@@ -9,25 +20,27 @@ const TechStack = () => {
         key="techStack"
         initial="initial"
         animate="animate"
-        exit={{ x: "-100vW", opacity: 0, transition: { duration: 0.6 } }}
+        exit={{ x: "-100vW", opacity: 0, transition: { duration: 0.3 } }}
         className="text-gray-600 body-font"
       >
         <div className="md:px-4 py-20 mx-auto">
           <div className="flex flex-wrap">
             {/*** FRONTEND */}
-            <motion.div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
+            <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
               <motion.h2
-                variants={animateHelper("x", 0, 0, 0.6, 0, 1)}
+                variants={animateHelper("x", 0, 0, 0.3, 0, 1)}
                 className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
               >
                 FRONTEND
               </motion.h2>
               <motion.div
-                variants={animateStagger(0.6)}
+                initial="hidden"
+                animate="visible"
+                variants={list}
                 className="flex flex-col -mb-1 space-y-2.5"
               >
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.7, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -36,7 +49,7 @@ const TechStack = () => {
                   <p className="my-auto"> React</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.8, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -45,7 +58,7 @@ const TechStack = () => {
                   <p className="my-auto"> Next.js</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.9, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -54,7 +67,7 @@ const TechStack = () => {
                   <p className="my-auto"> Redux</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -63,7 +76,7 @@ const TechStack = () => {
                   <p className="my-auto"> Ant Design</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -72,7 +85,7 @@ const TechStack = () => {
                   <p className="my-auto"> TailwindCSS</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.2, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -81,7 +94,8 @@ const TechStack = () => {
                   <p className="my-auto"> Bootstrap</p>
                 </motion.div>
               </motion.div>
-            </motion.div>
+            </div>
+
             {/*** BACKEND */}
             <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
               <motion.h2
@@ -91,11 +105,13 @@ const TechStack = () => {
                 BACKEND
               </motion.h2>
               <motion.div
-                variants={animateStagger(0.6)}
+                initial="hidden"
+                animate="visible"
+                variants={list}
                 className="flex flex-col  -mb-1 space-y-2.5"
               >
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.6, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -104,7 +120,7 @@ const TechStack = () => {
                   <p className="my-auto"> AWS</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.7, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -113,7 +129,7 @@ const TechStack = () => {
                   <p className="my-auto"> Node.js</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.8, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -122,7 +138,7 @@ const TechStack = () => {
                   <p className="my-auto"> MySQL</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.9, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -131,7 +147,7 @@ const TechStack = () => {
                   <p className="my-auto"> MongoDB</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -140,7 +156,7 @@ const TechStack = () => {
                   <p className="my-auto"> Nginx</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -149,7 +165,7 @@ const TechStack = () => {
                   <p className="my-auto"> Firebase</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.2, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -168,11 +184,13 @@ const TechStack = () => {
                 DEVOPS
               </motion.h2>
               <motion.div
-                variants={animateStagger(0.6)}
+                initial="hidden"
+                animate="visible"
+                variants={list}
                 className="flex flex-col  -mb-1 space-y-2.5"
               >
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.6, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -181,7 +199,7 @@ const TechStack = () => {
                   <p className="my-auto"> Git</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.7, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -190,7 +208,7 @@ const TechStack = () => {
                   <p className="my-auto"> NPM</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.8, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -199,7 +217,7 @@ const TechStack = () => {
                   <p className="my-auto"> YARN</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.9, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -208,7 +226,7 @@ const TechStack = () => {
                   <p className="my-auto"> Webpack</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -227,11 +245,13 @@ const TechStack = () => {
                 TOOLS
               </motion.h2>
               <motion.div
-                variants={animateStagger(0.6)}
+                initial="hidden"
+                animate="visible"
+                variants={list}
                 className="flex flex-col  -mb-1 space-y-2.5"
               >
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.6, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -240,7 +260,7 @@ const TechStack = () => {
                   <p className="my-auto"> Visual Studio Code</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.7, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -249,7 +269,7 @@ const TechStack = () => {
                   <p className="my-auto"> Chrome Dev Tools</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.8, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -258,7 +278,7 @@ const TechStack = () => {
                   <p className="my-auto"> Postman</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.9, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -267,7 +287,7 @@ const TechStack = () => {
                   <p className="my-auto"> FileZilla</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -276,7 +296,7 @@ const TechStack = () => {
                   <p className="my-auto"> Putty</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -285,7 +305,7 @@ const TechStack = () => {
                   <p className="my-auto"> Let's Encrypt</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.2, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -294,7 +314,7 @@ const TechStack = () => {
                   <p className="my-auto"> Figma</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1.2, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -313,11 +333,13 @@ const TechStack = () => {
                 LANGUAGES
               </motion.h2>
               <motion.div
-                variants={animateStagger(0.6)}
+                initial="hidden"
+                animate="visible"
+                variants={list}
                 className="flex flex-col  -mb-1 space-y-2.5"
               >
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.6, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -326,7 +348,7 @@ const TechStack = () => {
                   <p className="my-auto"> JavaScript</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.7, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -335,7 +357,7 @@ const TechStack = () => {
                   <p className="my-auto"> TypeScript</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.8, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -344,7 +366,7 @@ const TechStack = () => {
                   <p className="my-auto"> C</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.9, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -353,7 +375,7 @@ const TechStack = () => {
                   <p className="my-auto"> C++</p>
                 </motion.div>
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 1, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">
@@ -372,11 +394,13 @@ const TechStack = () => {
                 TESTING
               </motion.h2>
               <motion.div
-                variants={animateStagger(0.6)}
+                initial="hidden"
+                animate="visible"
+                variants={list}
                 className="flex flex-col  -mb-1 space-y-2.5"
               >
                 <motion.div
-                  variants={animateHelper("x", 50, 0, 0.6, 0, 1, "easeIn")}
+                  variants={item}
                   className="flex"
                 >
                   <span className="w-8 h-8  mr-2 rounded-full inline-flex align-middle">

@@ -28,7 +28,7 @@ const portfolio = (props) => {
     <motion.div
       initial="initial"
       animate="animate"
-      exit={{ x: "-100vW", opacity: 0, transition: { duration: 0.6 } }}
+      exit={{ x: "-100vW", opacity: 0, transition: { duration: 0.3 } }}
     >
       <section
         key="portfolio"

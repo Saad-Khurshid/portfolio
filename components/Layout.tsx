@@ -2,11 +2,13 @@ import Nav from "./Nav";
 
 const Layout = ({ children }) => {
   return (
-    <div className="font-body w-full">
-      <Nav />
-      <div>
-        <main>{children}</main>
-      </div>
+    <div className="font-body w-full h-full">
+      <Nav/>
+      {/* <div> */}
+        <main className="main">
+          {children}
+        </main>
+      {/* </div> */}
     </div>
   );
 };

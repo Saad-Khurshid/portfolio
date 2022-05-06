@@ -1,5 +1,8 @@
 import Head from "next/head";
 import About from "../components/About";
+import Contact from "../components/contact/Contact";
+import Experience from "../components/portfolio/Experience";
+import Services from "../components/Services";
 
 export default function Home() {
   return (
@@ -26,10 +29,17 @@ export default function Home() {
         <title>Saad Khurshid - Full Stack Web Developer</title>
         <meta
           name="keywords"
-          content="Saad Khurshid, Portfolio, Full Stack Developer"
+          content="Saad Khurshid, Portfolio, Full Stack Developer, JavaScript"
         />
       </Head>
-      <About />
+      <div
+      className = "w-full h-full"
+      >
+        <About />
+        <Experience />
+        <Services />
+        <Contact />
+      </div>
     </div>
   );
 }

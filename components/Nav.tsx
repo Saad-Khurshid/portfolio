@@ -7,7 +7,7 @@ const menuLinkStyle =
   "mt-12 pl-4 text-xl w-min text-white hover:scale-125 hover:text-gray-800 hover:duration-500 ease-in-out transform transition ";
 const activeLinkStyle = " text-gray-800 underline";
 const navStyleDef =
-  " bg-primary flex items-center px-2 py-4 sm:px-4 sm:py-8 lg:px-10 sticky top-0 transition-shadow duration-500 transform ";
+  "header bg-primary flex items-center px-2 py-4 sm:px-4 sm:py-8 lg:px-10 sticky top-0 transition-shadow duration-500 transform";
 const navScrolledStyle =
   "z-40 shadow-navShadow duration-500 ease-in-out transform";
 

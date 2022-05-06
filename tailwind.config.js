@@ -7,8 +7,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        body: ["Poppins"],
-        logo: ["Permanent Marker"],
+        body: ["Open Sans"],
+        logo: ["Audiowide"],
       },
       colors: {
         transparent: "transparent",
