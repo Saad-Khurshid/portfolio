@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "buildCSS": "postcss styles/globals.css -o styles/tailwindcssBuild.css",
-    "start": "next start"
+    "start": "next start -- -p 3232"
   },
   "dependencies": {
     "framer-motion": "^4.1.3",
@@ -25,5 +25,6 @@
     "postcss": "^8.2.9",
     "tailwindcss": "^2.1.1",
     "typescript": "^4.2.3"
-  }
+  },
+  "engines" : { "node" : ">14" }
 }
