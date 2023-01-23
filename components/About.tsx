@@ -31,12 +31,12 @@ const About = () => {
           className="col-span-4 my-auto ml-4"
           >
             <motion.div 
-            className="text-gray-800 text-9xl gradientText h-36"
+            className="text-gray-800 text-8xl gradientText "
             initial = {{ opacity: 0 }}
             animate = {{ opacity: 1 }}
             transition = {{ duration: 0.3, delay: 0.5 }}
             >
-              Hey!
+              Hello World!
             </motion.div>
             <motion.div
             className = "text-gray-800 text-4xl max-w-prose tracking-wide mt-6 ml-4"
@@ -142,7 +142,7 @@ const About = () => {
             animate = {{ scaleX: 1, translateZ: 0, translateX: 0, opacity: 1 }}
             transition = {{ duration: 0.3, delay: 0.5 }}
             >
-              Hey!
+              Hello World!
             </motion.div>
             <motion.div
             className = "text-gray-800 text-3xl max-w-prose tracking-wide pt-4 ml-2"

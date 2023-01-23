@@ -67,14 +67,22 @@ const Nav = (props) => {
       <nav key="nav" className={navStyle}>
         <Link href="/">
           <a
-            className="font-logo h-10 text-white capitalize text-3xl leading-tight tracking-wider hover:cursor-pointer hover:text-gray-800 hover:duration-500 ease-in-out transform transition break-words"
+            className="text-white text-2xl text-end leading-normal tracking-wider hover:cursor-pointer hover:duration-500 ease-in-out transform transition break-words py-auto flex content-center"
             onClick={() => {
               if (menuIsVisible) {
                 setMenuIsVisible(false);
               }
             }}
           >
-            SAAD KHURSHID
+            <div
+            className="mr-2 border-2 border-black rounded ring-2"
+            >
+              <img
+                src="/favicon-32x32.png"
+                alt="logo"
+              />
+            </div>
+            Saad Khurshid
           </a>
         </Link>
         {/*** medium and large screen nav menu */}

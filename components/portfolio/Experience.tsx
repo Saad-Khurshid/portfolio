@@ -14,6 +14,7 @@ const Experience = () => {
       animate="animate"
       exit={{ x: "-100vW", opacity: 0, transition: { duration: 0.3 } }}
       className="section text-gray-600 body-font"
+      style={{ width: '99vw', minHeight: '82vh' }}
     >
       <motion.div
         variants={animateHelper("x", 0, 0, 1, 0, 1)}
@@ -27,6 +28,45 @@ const Experience = () => {
         >
           <VerticalTimeline
           >
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "rgb(13, 115, 241, 1)",
+                color: "#fff"
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(13, 115, 241, 1)",
+              }}
+              date="Apr 2020 - Present"
+              dateClassName="text-white lg:text-gray-800"
+              iconStyle={{
+                background: "rgb(256, 256, 256)",
+                color: "#fff",
+              }}
+              icon={<img src="/experience/FireTEXT.svg" alt="11" />}
+              iconClassName="p-2 object-contain object-center"
+            >
+              <div className="md:text-lg font-semibold tracking-wide">
+                <div>
+                  <h3>
+                    Senior Full Stack Developer </h3>
+                </div>
+                <a
+                  href="https://firetext.net/"
+                  target="_blank"
+                  className="underline hover:scale-110 transform transition"
+                >
+                  {"FireTEXT Dispatch Solutions"}
+                </a>
+              </div>
+              <h4 className="tracking-wide ">US, Remote</h4>
+              <div className="mt-4">
+                <p className="text-base font-light">
+                  AWS/JavaScript Development <br />
+                  TypeScript | ReactJS | Expo | Reacat Nativ | Node.js | MongoDB | Nginx
+                </p>
+              </div>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
@@ -45,17 +85,21 @@ const Experience = () => {
               icon={<img src="/experience/11.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
-              <div className="flex md:text-lg font-semibold tracking-wide">
-                <h3>Full Stack Developer @ </h3>
-                <a
-                  href="http://concept11studios.com/"
-                  target="_blank"
-                  className="ml-4 underline hover:scale-110 transform transition"
-                >
-                  {"Concept 11"}
-                </a>
+              <div className="md:text-lg font-semibold tracking-wide">
+                <div>
+                  <h3>Full Stack Developer </h3>
+                </div>
+                <div>
+                  <a
+                    href="http://concept11studios.com/"
+                    target="_blank"
+                    className="underline hover:scale-110 transform transition"
+                  >
+                    {"Concept 11"}
+                  </a>
+                </div>
               </div>
-              <h4 className="tracking-wide ">US-FL, Remote</h4>
+              <h4 className="tracking-wide ">US, Remote</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
                   AWS/JavaScript Development <br />
@@ -81,16 +125,21 @@ const Experience = () => {
               icon={<img src="/experience/icom.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
-              <div className="flex md:text-lg font-semibold tracking-wide">
-                <h3>Software Engineer @ </h3>
-                <a
-                  href="http://icommunix.com/"
-                  target="_blank"
-                  className="ml-4 underline hover:scale-110 transform transition"
-                >
-                  ICOMMUNIX
-                </a>
+              <div className="md:text-lg font-semibold tracking-wide">
+                <div>
+                  <h3>Software Engineer </h3>
+                </div>
+                <div>
+                  <a
+                    href="http://icommunix.com/"
+                    target="_blank"
+                    className="underline hover:scale-110 transform transition"
+                  >
+                    ICOMMUNIX
+                  </a>
+                </div>
               </div>
+              <h4 className="tracking-wide ">Lahore, Pakistan</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
                   AWS/JavaScript Development <br />
@@ -116,16 +165,21 @@ const Experience = () => {
               icon={<img src="/experience/ioTics.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
-              <div className="flex md:text-lg font-semibold tracking-wide">
-                <h3>Web Developer @ </h3>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="ml-4 underline hover:scale-110 transform transition"
-                >
-                  IoTics Technology Pvt Ltd
-                </a>
+              <div className="md:text-lg font-semibold tracking-wide">
+                <div>
+                  <h3>Web Developer </h3>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    target="_blank"
+                    className="underline hover:scale-110 transform transition"
+                  >
+                    IoTics Technology Pvt Ltd
+                  </a>
+                </div>
               </div>
+              <h4 className="tracking-wide ">Peshawar, Pakistan</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
                   AWS/JavaScript/PHP Development <br />
@@ -152,17 +206,22 @@ const Experience = () => {
               iconClassName="p-2 object-contain object-center"
             >
               <div className="md:text-lg font-semibold tracking-wide">
-                <h3>Computer Systems Engineering @</h3>
-                <h4 className="tracking-wide">
-                  <a
-                    href="https://www.uetpeshawar.edu.pk/"
-                    target="_blank"
-                    className="underline hover:scale-110 transform transition"
-                  >
-                    {`University of Engineering & Technology (UET)`}
-                  </a>
-                </h4>
+                <div>
+                  <h3>Computer Systems Engineering</h3>
+                </div>
+                <div>
+                  <h4 className="tracking-wide">
+                    <a
+                      href="https://www.uetpeshawar.edu.pk/"
+                      target="_blank"
+                      className="underline hover:scale-110 transform transition"
+                    >
+                      {`University of Engineering & Technology (UET)`}
+                    </a>
+                  </h4>
+                </div>
               </div>
+              <h4 className="tracking-wide ">Peshawar, Pakistan</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
                   Programming/Operating Systems/ Networking/Database/Web

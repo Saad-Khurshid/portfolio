@@ -3,7 +3,9 @@ import Project from "./Project";
 
 const ProjectsList = () => {
   return (
-    <div>
+    <div
+    style={{ width: '99vw', height: '120vh'}}
+    >
       <Project />
     </div>
   );
