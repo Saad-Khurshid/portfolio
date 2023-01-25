@@ -4,7 +4,7 @@ const Footer = (props) => {
 
     return (
         <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:p-6 md:px-32 dark:bg-gray-800 justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Saad Khurshid™</a>. All Rights Reserved.
+            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="saadkhurshid.dev/" className="hover:underline">Saad Khurshid™</a>. All Rights Reserved.
             </span>
             <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 gap-4 md:gap-12">
                 <li>
