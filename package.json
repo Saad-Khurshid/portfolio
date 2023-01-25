@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "buildCSS": "postcss styles/globals.css -o styles/tailwindcssBuild.css",
-    "start": "next start -- -p 3232"
+    "start": "next start -- -p 3232",
+    "pm2Start": "pm2 start npm --name next -- start"
   },
   "dependencies": {
     "framer-motion": "^4.1.3",
