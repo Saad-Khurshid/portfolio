@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "buildCSS": "postcss styles/globals.css -o styles/tailwindcssBuild.css",
     "start": "next start -- -p 3232",
     "pm2Start": "pm2 start npm --name next -- start"

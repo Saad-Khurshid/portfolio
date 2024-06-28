@@ -269,7 +269,7 @@ const ContactForm = () => {
                 }
               >
                 <img
-                  src="/spinner.svg"
+                  src="./spinner.svg"
                   alt="spin"
                   className={
                     "h-8 w-8 mr-3" +
@@ -317,12 +317,12 @@ const ContactForm = () => {
                 </motion.div>
               )}
             </div>
-            
+
 
           </div>
         </div>
       </div>
-      
+
     </motion.section>
   );
 };

@@ -65,7 +65,7 @@ const Nav = (props) => {
   return (
     <>
       <nav key="nav" className={navStyle}>
-        <Link href="/">
+        <Link href="./">
           <a
             className="text-white text-2xl text-end leading-normal tracking-wider hover:cursor-pointer hover:duration-500 ease-in-out transform transition break-words py-auto flex content-center"
             onClick={() => {
@@ -78,7 +78,7 @@ const Nav = (props) => {
               className="mr-2 border-2 border-black rounded ring-2"
             >
               <img
-                src="/favicon-32x32.png"
+                src="./favicon-32x32.png"
                 alt="logo"
               />
             </div>
@@ -89,7 +89,7 @@ const Nav = (props) => {
         <div className="flex-1 px-2 hidden md:block">
           <ul className="items-center space-y-2 ml-auto right-0 w-min md:flex md:space-y-0 md:space-x-4 lg:space-x-6">
             {/* <li className={linkStyle + (active === "/" ? activeLinkStyle : "")}>
-              <Link href="/">About</Link>
+              <Link href="./">About</Link>
             </li>
 
             <li
@@ -97,7 +97,7 @@ const Nav = (props) => {
                 linkStyle + (active === "/portfolio" ? activeLinkStyle : "")
               }
             >
-              <Link href="/portfolio">Portfolio</Link>
+              <Link href="./portfolio">Portfolio</Link>
             </li>
 
             <li
@@ -105,7 +105,7 @@ const Nav = (props) => {
                 linkStyle + (active === "/contact" ? activeLinkStyle : "")
               }
             >
-              <Link href="/contact">Contact</Link>
+              <Link href="./contact">Contact</Link>
             </li> */}
 
             <li className={linkStyle}>
@@ -183,7 +183,7 @@ const Nav = (props) => {
           <li
             className={menuLinkStyle + (active === "/" ? activeLinkStyle : "")}
           >
-            <Link href="/">
+            <Link href="./">
               <a
                 onClick={() => {
                   if (menuIsVisible) {
@@ -201,7 +201,7 @@ const Nav = (props) => {
               menuLinkStyle + (active === "/portfolio" ? activeLinkStyle : "")
             }
           >
-            <Link href="/portfolio">
+            <Link href="./portfolio">
               <a
                 onClick={() => {
                   if (menuIsVisible) {
@@ -219,7 +219,7 @@ const Nav = (props) => {
               menuLinkStyle + (active === "/contact" ? activeLinkStyle : "")
             }
           >
-            <Link href="/contact">
+            <Link href="./contact">
               <a
                 onClick={() => {
                   if (menuIsVisible) {

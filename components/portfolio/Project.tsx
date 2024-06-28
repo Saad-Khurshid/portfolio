@@ -17,13 +17,13 @@ const projects = [
       'Worked on VOIP solutions.',
     ],
     images: [
-      '../../firetext/ft1.png',
-      '../../firetext/ft2.png',
-      '../../firetext/ft3.png',
-      '../../firetext/ft4.png',
-      '../../firetext/ftm1.png',
-      '../../firetext/ftm2.png',
-      '../../firetext/ftm3.png',
+      './firetext/ft1.png',
+      './firetext/ft2.png',
+      './firetext/ft3.png',
+      './firetext/ft4.png',
+      './firetext/ftm1.png',
+      './firetext/ftm2.png',
+      './firetext/ftm3.png',
     ],
     buttons: [
       // <div className="flex justify-center mt-4">
@@ -48,9 +48,9 @@ const projects = [
       'Implemented offline caching, reducing data usage by 20%.',
     ],
     images: [
-      '../../lootpaw/lootpaw1.png',
-      '../../lootpaw/lootpaw2.png',
-      '../../lootpaw/lootpaw3.png',
+      './lootpaw/lootpaw1.png',
+      './lootpaw/lootpaw2.png',
+      './lootpaw/lootpaw3.png',
     ]
   },
   {
@@ -63,9 +63,9 @@ const projects = [
       'Developed front-end and backend for geofencing functionalities to query relevant data based on geohash efficiently.',
     ],
     images: [
-      '../../hyloq/hyloq3.png',
-      '../../hyloq/hyloq1.png',
-      '../../hyloq/hyloq2.png',
+      './hyloq/hyloq3.png',
+      './hyloq/hyloq1.png',
+      './hyloq/hyloq2.png',
     ]
   }
 ];

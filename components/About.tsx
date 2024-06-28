@@ -24,7 +24,7 @@ const About = () => {
               animate={{ rotateY: 15, skewY: -6, skewX: -2 }}
               transition={{ duration: 0.3 }}
               type="image/svg+xml"
-              data="/animated/jsAnimatedCoderFinal.svg"
+              data="./animated/jsAnimatedCoderFinal.svg"
             ></motion.object>
           </div>
           <div
@@ -81,7 +81,7 @@ const About = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.3, delay: 2.5 }}
             >
-              <Link href="/portfolio">{"View portfolio"}</Link>
+              <Link href="./portfolio">{"View portfolio"}</Link>
             </motion.div>
           </div>
         </motion.div>
@@ -97,17 +97,17 @@ const About = () => {
           <div className="mt-6 space-y-6 md:space-y-0 md:mx-auto  md:align-bottom md:flex md:flex-1">
             <img
               className="h-24 md:h-20 w-auto mx-auto"
-              src="/animated/running.svg"
+              src="./animated/running.svg"
               alt="jogging"
             />{" "}
             <img
               className="h-24 md:h-20 w-auto mx-auto"
-              src="/animated/longDrive.svg"
+              src="./animated/longDrive.svg"
               alt="long drive"
             />{" "}
             <img
               className="h-24 md:h-20 w-auto mx-auto"
-              src="/animated/visitingFriends.svg"
+              src="./animated/visitingFriends.svg"
               alt="visiting friends"
             />
           </div>
@@ -127,7 +127,7 @@ const About = () => {
             variants={animateHelper("x", 0, 0, 0.3, 0, 1)}
             className="h-96 w-full object-cover object-center inset-0"
             type="image/svg+xml"
-            data="/animated/jsAnimatedCoderFinal.svg"
+            data="./animated/jsAnimatedCoderFinal.svg"
           ></motion.object>
         </div>
         <motion.div className="w-full px-2 sm:px-4">
@@ -187,7 +187,7 @@ const About = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.3, delay: 2.5 }}
             >
-              <Link href="/portfolio">{"View portfolio"}</Link>
+              <Link href="./portfolio">{"View portfolio"}</Link>
             </motion.div>
           </div>
         </motion.div>
@@ -203,17 +203,17 @@ const About = () => {
           <div className="mt-6 space-y-6 md:space-y-0 md:mx-auto  md:align-bottom md:flex md:flex-1">
             <img
               className="h-24 md:h-20 w-auto mx-auto"
-              src="/animated/running.svg"
+              src="./animated/running.svg"
               alt="jogging"
             />{" "}
             <img
               className="h-24 md:h-20 w-auto mx-auto"
-              src="/animated/longDrive.svg"
+              src="./animated/longDrive.svg"
               alt="long drive"
             />{" "}
             <img
               className="h-24 md:h-20 w-auto mx-auto"
-              src="/animated/visitingFriends.svg"
+              src="./animated/visitingFriends.svg"
               alt="visiting friends"
             />
           </div>

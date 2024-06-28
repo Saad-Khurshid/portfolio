@@ -43,7 +43,7 @@ const Experience = () => {
                 background: "rgb(256, 256, 256)",
                 color: "#fff",
               }}
-              icon={<img src="/experience/FireTEXT.svg" alt="11" />}
+              icon={<img src="./experience/FireTEXT.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
               <div className="md:text-lg font-semibold tracking-wide">
@@ -82,7 +82,7 @@ const Experience = () => {
                 background: "rgb(256, 256, 256)",
                 color: "#fff",
               }}
-              icon={<img src="/experience/11.svg" alt="11" />}
+              icon={<img src="./experience/11.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
               <div className="md:text-lg font-semibold tracking-wide">
@@ -122,7 +122,7 @@ const Experience = () => {
                 background: "rgb(256, 256, 256)",
                 color: "#fff",
               }}
-              icon={<img src="/experience/icom.svg" alt="11" />}
+              icon={<img src="./experience/icom.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
               <div className="md:text-lg font-semibold tracking-wide">
@@ -162,7 +162,7 @@ const Experience = () => {
                 background: "rgb(256, 256, 256)",
                 color: "#fff",
               }}
-              icon={<img src="/experience/ioTics.svg" alt="11" />}
+              icon={<img src="./experience/ioTics.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
               <div className="md:text-lg font-semibold tracking-wide">
@@ -202,7 +202,7 @@ const Experience = () => {
                 background: "rgb(256, 256, 256)",
                 color: "#fff",
               }}
-              icon={<img src="/experience/education.svg" alt="11" />}
+              icon={<img src="./experience/education.svg" alt="11" />}
               iconClassName="p-2 object-contain object-center"
             >
               <div className="md:text-lg font-semibold tracking-wide">
