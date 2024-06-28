@@ -9,7 +9,7 @@
     "pm2Start": "pm2 start npm --name next -- start",
     "build": "next build",
     "export": "next export",
-    "deploy": "gh-pages -d out"
+    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "framer-motion": "^4.1.3",
