@@ -1,0 +1,54 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M19.9262 1.5238L11.3502 21.6613L22.5756 48.0173L42.3771 1.5238H19.9262Z" fill="#DB4437"/>
+<g filter="url(#filter0_d)">
+<path d="M1.98581 43.6586C0.838062 46.3537 0.838062 49.6737 1.98581 52.3688L19.9315 94.5036H42.377L11.3502 21.6613L1.98581 43.6586Z" fill="black"/>
+</g>
+<path d="M1.98581 43.6586C0.838062 46.3537 0.838062 49.6737 1.98581 52.3688L19.9315 94.5036H42.377L11.3502 21.6613L1.98581 43.6586Z" fill="#4285F4"/>
+<path opacity="0.2" d="M1.98582 51.6497C1.46021 50.4074 1.18668 49.0417 1.14377 47.6541C1.0955 49.2814 1.36903 50.9159 1.98582 52.3761L19.9315 94.5109H42.3771L42.066 93.7844H19.9262L1.98582 51.6497Z" fill="#1A237E"/>
+<path opacity="0.2" d="M11.5057 22.0318L19.9262 2.25027H42.066L42.3771 1.5238H19.9262L11.3502 21.6613L11.5057 22.0318Z" fill="white"/>
+<path opacity="0.2" d="M42.066 1.5238L22.4255 47.6468L22.5756 48.0173L42.377 1.5238H42.066Z" fill="#3E2723"/>
+<path opacity="0.2" d="M1.98582 44.385L11.3556 22.3878L42.066 94.5109H42.3771L11.3502 21.6613L1.98582 43.6586C1.36367 45.1188 1.09014 46.7533 1.14377 48.3806C1.18132 47.0003 1.45485 45.6273 1.98582 44.385Z" fill="white"/>
+<path d="M11.3663 21.6904L22.5756 48.0173L25.5845 40.9561L11.3663 21.6904Z" fill="url(#paint0_radial)"/>
+<path d="M76.7131 94.5109L85.289 74.3734L74.0636 48.0173L54.2622 94.5109H76.7131Z" fill="#FFC107"/>
+<g filter="url(#filter1_d)">
+<path d="M94.6534 52.3761C95.8012 49.6809 95.8012 46.361 94.6534 43.6658L76.7077 1.53107H54.2622L85.289 74.3806L94.6534 52.3761Z" fill="black"/>
+</g>
+<path d="M94.6534 52.3761C95.8012 49.6809 95.8012 46.361 94.6534 43.6658L76.7077 1.53107H54.2622L85.289 74.3806L94.6534 52.3761Z" fill="#0F9D58"/>
+<path opacity="0.2" d="M94.6534 44.385C95.179 45.6273 95.4525 46.993 95.4955 48.3806C95.5437 46.7533 95.2702 45.1188 94.6534 43.6586L76.7077 1.5238H54.2622L54.5733 2.25027H76.7131L94.6534 44.385Z" fill="white"/>
+<path opacity="0.2" d="M54.5733 94.5109L74.2191 48.3878L74.0636 48.0173L54.2622 94.5109H54.5733Z" fill="white"/>
+<path opacity="0.2" d="M94.6534 51.6497L85.2837 73.6469L54.5733 1.5238H54.2622L85.289 74.3734L94.6534 52.3761C95.2756 50.9159 95.5491 49.2814 95.4955 47.6541C95.4579 49.0344 95.1844 50.4074 94.6534 51.6497Z" fill="#263238"/>
+<path d="M85.273 74.3443L74.0636 48.0173L71.0548 55.0785L85.273 74.3443Z" fill="url(#paint1_radial)"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-0.875" y="19.6613" width="45.252" height="76.8423" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="52.2622" y="-0.468933" width="45.2521" height="76.8496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-11.4671 -16.2161) rotate(180) scale(8.51222 11.5298)">
+<stop stop-color="#3E2723" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#3E2723" stop-opacity="0.02"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(85.1323 54.1146) scale(8.51222 11.5298)">
+<stop stop-color="#BF360C" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#BF360C" stop-opacity="0.02"/>
+</radialGradient>
+<clipPath id="clip0">
+<rect width="96" height="96" fill="white"/>
+</clipPath>
+</defs>
+</svg>
