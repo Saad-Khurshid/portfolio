@@ -15,8 +15,10 @@
     "next": "10.1.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-slick": "^0.30.2",
     "react-typical": "^0.1.3",
-    "react-vertical-timeline-component": "3.3.3"
+    "react-vertical-timeline-component": "3.3.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/joi": "^17.2.3",
@@ -27,5 +29,7 @@
     "tailwindcss": "^2.1.1",
     "typescript": "^4.2.3"
   },
-  "engines" : { "node" : ">14" }
+  "engines": {
+    "node": ">14"
+  }
 }

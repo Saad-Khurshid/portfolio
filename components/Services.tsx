@@ -3,7 +3,7 @@ import TechStack from "./portfolio/TechStack";
 
 const Services = () => {
   return (
-    <section className="section py-24 bg-secondary subpixel-antialiased w-full content-center">
+    <section className="section pt-24 bg-secondary subpixel-antialiased w-full content-center">
       <h1 className="text-4xl md:text-6xl font-bold title-font mb-2 text-gray-800 text-center px-2 md:px-4">
         What I Do
       </h1>

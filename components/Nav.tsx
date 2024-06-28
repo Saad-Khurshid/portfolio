@@ -25,10 +25,10 @@ const Nav = (props) => {
         switch (window.location.pathname) {
           case "/":
             return setActive("/");
-          case "/portfolio":
-            return setActive("/portfolio");
-          case "/contact":
-            return setActive("/contact");
+          // case "/portfolio":
+          //   return setActive("/portfolio");
+          // case "/contact":
+          //   return setActive("/contact");
           default:
             return setActive("");
         }
@@ -75,7 +75,7 @@ const Nav = (props) => {
             }}
           >
             <div
-            className="mr-2 border-2 border-black rounded ring-2"
+              className="mr-2 border-2 border-black rounded ring-2"
             >
               <img
                 src="/favicon-32x32.png"
@@ -88,7 +88,7 @@ const Nav = (props) => {
         {/*** medium and large screen nav menu */}
         <div className="flex-1 px-2 hidden md:block">
           <ul className="items-center space-y-2 ml-auto right-0 w-min md:flex md:space-y-0 md:space-x-4 lg:space-x-6">
-            <li className={linkStyle + (active === "/" ? activeLinkStyle : "")}>
+            {/* <li className={linkStyle + (active === "/" ? activeLinkStyle : "")}>
               <Link href="/">About</Link>
             </li>
 
@@ -106,7 +106,8 @@ const Nav = (props) => {
               }
             >
               <Link href="/contact">Contact</Link>
-            </li>
+            </li> */}
+
             <li className={linkStyle}>
               <a
                 href="https://www.linkedin.com/in/saad-khurshid-a101a8126/"

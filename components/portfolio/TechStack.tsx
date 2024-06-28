@@ -30,7 +30,7 @@ const TechStack = () => {
             <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
               <motion.h2
                 variants={animateHelper("x", 0, 0, 0.3, 0, 1)}
-                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
+                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl lg:text-center sm:text-left"
               >
                 FRONTEND
               </motion.h2>
@@ -119,7 +119,7 @@ const TechStack = () => {
             <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
               <motion.h2
                 variants={animateHelper("x", 0, 0, 0.6, 0, 1)}
-                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
+                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl lg:text-center sm:text-left"
               >
                 BACKEND
               </motion.h2>
@@ -189,7 +189,7 @@ const TechStack = () => {
             <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
               <motion.h2
                 variants={animateHelper("x", 0, 0, 0.6, 0, 1)}
-                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
+                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl lg:text-center sm:text-left"
               >
                 DEVOPS
               </motion.h2>
@@ -268,7 +268,7 @@ const TechStack = () => {
             <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
               <motion.h2
                 variants={animateHelper("x", 0, 0, 0.6, 0, 1)}
-                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
+                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl lg:text-center sm:text-left"
               >
                 TESTING
               </motion.h2>
@@ -293,7 +293,7 @@ const TechStack = () => {
             <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
               <motion.h2
                 variants={animateHelper("x", 0, 0, 0.6, 0, 1)}
-                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
+                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl lg:text-center sm:text-left"
               >
                 TOOLS
               </motion.h2>
@@ -399,7 +399,7 @@ const TechStack = () => {
             <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
               <motion.h2
                 variants={animateHelper("x", 0, 0, 0.6, 0, 1)}
-                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl text-center sm:text-left"
+                className="font-medium title-font tracking-widest text-gray-800 mb-6 text-2xl lg:text-center sm:text-left"
               >
                 LANGUAGES
               </motion.h2>

@@ -24,7 +24,7 @@ const Experience = () => {
           My Journey so far
         </h1>
         <div
-        style={{ overflowX: "auto" }}
+          style={{ overflowX: "auto" }}
         >
           <VerticalTimeline
           >
@@ -37,7 +37,7 @@ const Experience = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(13, 115, 241, 1)",
               }}
-              date="Apr 2020 - Present"
+              date="May 2021 - Present"
               dateClassName="text-white lg:text-gray-800"
               iconStyle={{
                 background: "rgb(256, 256, 256)",
@@ -49,7 +49,7 @@ const Experience = () => {
               <div className="md:text-lg font-semibold tracking-wide">
                 <div>
                   <h3>
-                    Senior Full Stack Developer </h3>
+                    Senior Software Engineer </h3>
                 </div>
                 <a
                   href="https://firetext.net/"
@@ -62,8 +62,8 @@ const Experience = () => {
               <h4 className="tracking-wide ">US, Remote</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
-                  AWS/JavaScript Development <br />
-                  TypeScript | ReactJS | Expo | Reacat Nativ | Node.js | MongoDB | Nginx
+                  <b>Skills</b> <br />
+                  ReactJS | Reacat Native | Node.js | TypeScript | JavaScript | Python
                 </p>
               </div>
             </VerticalTimelineElement>
@@ -87,7 +87,7 @@ const Experience = () => {
             >
               <div className="md:text-lg font-semibold tracking-wide">
                 <div>
-                  <h3>Full Stack Developer </h3>
+                  <h3>Software Engineer </h3>
                 </div>
                 <div>
                   <a
@@ -102,8 +102,8 @@ const Experience = () => {
               <h4 className="tracking-wide ">US, Remote</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
-                  AWS/JavaScript Development <br />
-                  TypeScript | ReactJS | Node.js | MongoDB | Nginx | AWS
+                  <b>Skills</b> <br />
+                  ReactJS | Node.js | TypeScript | JavaScript | Python | AWS
                 </p>
               </div>
             </VerticalTimelineElement>
@@ -142,7 +142,7 @@ const Experience = () => {
               <h4 className="tracking-wide ">Lahore, Pakistan</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
-                  AWS/JavaScript Development <br />
+                  <b>Skills</b> <br />
                   Node.js | MySQL | AWS
                 </p>
               </div>
@@ -182,7 +182,7 @@ const Experience = () => {
               <h4 className="tracking-wide ">Peshawar, Pakistan</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
-                  AWS/JavaScript/PHP Development <br />
+                  <b>Skills</b> <br />
                   HTML | JavaScript | React Native | PHP | MySQL | Firebase
                 </p>
               </div>
@@ -224,14 +224,15 @@ const Experience = () => {
               <h4 className="tracking-wide ">Peshawar, Pakistan</h4>
               <div className="mt-4">
                 <p className="text-base font-light">
-                  Programming/Operating Systems/ Networking/Database/Web
-                  Development <br />C | C++ | Assembly | Linux | Internet
-                  Protocols | MySQL | HTML | PHP
+                  <b>Courses</b> <br />
+                  Computer Programming | Object Oriented Programming | Intro to OS and Systems Programming | Data Structures and Algorithms | Communication Systems
+                  | Computer Organization and Architecture | Systems Programming | Database Management Systems | Data Communication and Networks | Control Systems
+                  | Digital System Design | Embedded Systems | Software Engineering
                 </p>
               </div>
             </VerticalTimelineElement>
           </VerticalTimeline>
-          </div>
+        </div>
       </motion.div>
     </motion.section>
   );
